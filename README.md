@@ -1,1 +1,0 @@
-# cut-css-from-psd-use-boostrap-responsive
