@@ -1,0 +1,229 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: content-box;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: OpenSans;
+}
+#header1 {
+	background-color: rgba(236,238,244);
+	height: 63px;
+	text-align: center;
+}
+#header1 div {
+	text-align: center;
+}
+#header1 div div div ul li {
+	display: inline-block;
+	min-height: 63px;
+	line-height: 63px;
+	text-align: center;
+}
+#header1 div div div:first-child ul li {	
+	min-width: 98px;
+}
+#header1 div div div:first-child ul li a {
+	display: inline-block;
+	min-width: 94px;
+	min-height: 32px;
+	line-height: 32px;
+	border-radius: 5px;
+	color: rgb(187, 188, 189);
+	background-color: white;
+}
+#header1 div div div:first-child ul li a span {
+	display: inline;
+	font-size: 12px;
+	line-height: 32px;
+	font-weight: 600;
+}
+#header1 div div div:first-child ul li a img {
+	display: inline;
+	margin-right: 17px;	
+}
+#header1 div div div:last-child ul {
+	border-right: 1px solid rgb(222,224,230);	
+}
+#header1 div div div:last-child ul li {
+	min-width: 64px;
+	border-left: 1px solid rgb(222,224,230);
+}
+/******/
+header {
+
+}
+header > div > div > a {
+	height: 218px;	
+	display: inline;
+	line-height: 218px;
+}
+header > div > div:last-child {
+	text-align: right;
+}
+header > div > div > div {
+	height: 109px;
+}
+header > div > div > div > div > span {
+	border: 2px solid rgb(222,224,230);
+	border-radius: 5px;
+	padding: 17px 26px;
+	display: inline-block;
+    vertical-align: middle;
+    margin-top: 40px;
+    font-weight: 300;
+    color: rgb(187, 188, 189);
+    position: relative;
+}
+header > div > div > div > div > span:before {
+
+	content: " ";
+	display: block;
+	position: absolute;
+	background-color: white;
+	width: 12px;
+	height: 12px;
+	border: 2px solid rgb(222,224,230);
+	transform: rotate(45deg);
+	border-left: none;
+	border-top: none;
+	right: 100px;
+	bottom: -7px;
+}
+header > div  > div > div > div > a {
+	display: inline-block;
+	width: 70px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 20px 0px 0px;
+}
+header > div  > div > div > div > a:nth-child(2) {
+	border-left: 1px solid rgb(222,224,230);
+	border-right: 1px solid rgb(222,224,230);
+}
+
+#header3 {
+	border-top: 1px solid rgb(222,224,230);
+}
+#header3 > div > div > div > ul {
+	margin-bottom: 0px;
+}
+#header3 > div > div > div > ul > li {
+	display: inline-block;
+	border-right: 1px solid rgb(222,224,230);
+}
+#header3 > div > div > div > ul > li:last-child {
+	border: none;
+}
+#header3 > div > div > div > ul > li > a > h3 {
+	font-size: 14px;
+	margin: 35px 15px;
+	font-weight: 600;
+    color: rgb(187, 188, 189);
+}
+#header3 > div > div > div > ul > li:hover > a > h3 {
+   color: rgb(31, 170, 226);	
+}
+#header3 > div > div > div:last-child {
+	margin-top: 35px;
+}
+#header3 > div > div > div > form > input {
+	display: none;
+}
+#header3 > div > div > div > form > button {
+	display: inline-block;
+	background-color: transparent;
+	border: none;
+}
+#header3 > div > div > div > form:focus > button{
+	border: none;
+	outline: none;
+}
+#header3 > div > div > div > form:hover > input {
+	width: 170px;
+	display: inline-block;
+	border-radius: 15px;
+	border-color: rgb(187, 188, 189);;
+}
+#slide {
+	background-image: url("images/back1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	height: 890px;
+}
+#slide > div > div:first-child > div  {
+	margin-top: 225px;
+	text-align: center;
+}
+#slide div div div h2 {
+	font-style: 58px;
+	font-weight: 600;
+}
+#slide div div div h3 {
+	margin-top: 55px;
+	font-style: 45px;
+	font-weight: 600;
+}
+
+#slide > div > div:last-child {
+	margin-top: 150px;
+}
+#slide > div > div:last-child > div {
+	display: inline-block;
+	height: 250px;
+	position: relative;
+	text-align: center;
+}
+#slide > div > div:last-child div a img {
+	margin-right: 15px;
+}
+#slide > div > div:last-child > div:first-child {
+	background-image: url(images/design1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;	
+}
+#slide > div > div:last-child > div:first-child div a {
+	display: inline;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	right: 0px ;
+	padding: 10px 0px;
+	background-color: rgba(118, 191, 47, 0.9);
+}
+#slide > div > div:last-child > div:nth-child(2) {
+	background-image: url(images/design2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;	
+}
+#slide > div > div:last-child > div:nth-child(2) div a {
+	display: inline;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	right: 0px ;
+	padding: 10px 0px;
+	background-color: rgba(254, 235, 117, 0.9);	
+}
+#slide > div > div:last-child > div:last-child {
+background-color: rgb(224, 224, 224);
+}
+#slide > div > div:last-child > div:last-child form button {
+	background-color: transparent;
+	color: rgb(212, 212, 212);
+	border: none;
+	display: inline-block;
+	position: absolute;
+	bottom: 100px;
+}
